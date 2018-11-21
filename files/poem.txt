@@ -1,5 +1,28 @@
 
-Programming is fun
-When the work is done
-if you wanna make your work also fun:
-    use Python!
+from world import me,you
+from feelings import *
+from body import heart
+from mind import every_thoughts,I,your
+forever = True
+while forever:
+    endlessly = True
+    your_feelings = ["dejected", "depressed","sad","gloomy","downcast"]
+    for you in your_feelings:
+        print "I am always there"
+    while endlessly:
+        I.take_care_of(you)
+        if you.love() is not me:
+            break
+     for emotion in me.heart:
+         try:
+             your.love = me
+         except:
+             your.bestfriend = me
+    if I.annoy(you):
+        love(me)
+    elif you.angry(me):
+        I.cool(you)
+    else:
+        love(me,how ='unconditionally,deeply')
+    for i in every_thoughts: 
+        print "You"
